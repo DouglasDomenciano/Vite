@@ -7,7 +7,7 @@ export const StyleInputContainer = styled.div`
     height: auto;
 `;
 
-export const StyledPlaceholder = styled.label`
+export const StyledPlaceholder = styled.span`
     background-color: white;
     width: auto;
     height: auto;
@@ -21,6 +21,7 @@ export const StyledPlaceholder = styled.label`
     transition: all 250ms;
     padding: 0 8px;
     z-index: 2;
+    cursor: pointer;
 `;
 
 export const StyleInput = styled.input`
@@ -35,6 +36,7 @@ export const StyleInput = styled.input`
     }
     color: ${colors('grey')};
     z-index: 1;
+    cursor: pointer;
 `;
 
 export const StyledErrorValidationMessage = styled.span`

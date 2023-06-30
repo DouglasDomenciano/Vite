@@ -14,7 +14,7 @@ import {
 } from './style';
 import Input from '~/components/input';
 import Button from '~/components/button';
-import LoginImage from '~/assets/login.png'
+import LoginImage from '~/assets/logo-marca.png'
 import Logo from '~/assets/fake-logo.png'
 
 
